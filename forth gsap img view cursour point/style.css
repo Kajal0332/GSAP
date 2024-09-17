@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#cursor{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3px;
+    line-height: 1;
+    z-index: 9;
+}
+
+.imag {
+    width: 500px;
+    background-color: aliceblue;
+    height: 400px;
+    position: relative;
+}
+.imag img{
+    width: 500px;
+    background-color: aliceblue;
+    height: 400px;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    
+    z-index: 10;
+
+}
