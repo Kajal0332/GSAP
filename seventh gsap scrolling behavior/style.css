@@ -1,0 +1,45 @@
+
+@font-face{
+    font-family: 'Open Sans';
+    font-style: normal;
+    src: url('neuemachina');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+    font-family: neuemachina;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: rgb(82, 67, 67);
+}
+#page1,#page2,#page3{
+    height: 100vh;
+    width: 100%;
+}
+.move{
+    background-color: lawngreen;
+    display: flex;
+    padding: 2vw 0;
+}
+.marquee{
+    flex-shrink: 0;
+    display: flex;
+    align-items: c;
+    gap: 3vw;
+    padding: 0 1.5vw;
+    transform: translateX(-100%);
+}
+.marquee h1{
+    font-size: 70px;
+    text-transform: uppercase ;
+}
+.marquee img{
+    height: 80px;
+
+}
